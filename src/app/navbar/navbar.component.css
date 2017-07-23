@@ -1,0 +1,82 @@
+.top-bar{
+    height:80px;
+    border-bottom: 1px solid #eeefef;
+    background-color:#fff;
+}
+.fa-bars{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left:25px;
+}
+.logo-img{
+    width:253px;
+    margin:0 auto;
+    margin-top:8px;
+}
+.avatar{
+    float:right;
+    margin-top:20px;
+    margin-right:25px;
+    width:42px;
+    height:42px;
+}
+.avatar-title{
+    margin-right:12px;
+    margin-top:33px;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size:12px;
+}
+.sub-menu{
+    height:60px;
+    padding-top:5px;
+    background-color: #fff;
+    text-align: center;
+}
+.sub-menu .navbar-nav{
+    display:inline-block;
+    float: none;
+}
+.sub-menu .navbar-nav li{
+    margin:0 5px;
+}
+.sub-menu .navbar-nav li a:active{background:transparent;color:#3078c0}
+.sub-menu .navbar-nav li a:focus{background:transparent;color:#3078c0}
+.sub-menu .navbar-nav li a:hover{background:transparent;color:#3078c0}
+.sub-menu .navbar-nav li a{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size:12px;
+    color:#333;
+}
+.page-title{
+    display: none;
+}
+.navbar-toggle{
+    margin-top:5px;
+}
+@media screen and (max-width:1169px){
+    .top-bar{
+        display: none;
+    }
+}
+@media screen and (max-width:767px){
+    .sub-menu{
+        height:60px;
+        background-color: transparent;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    #subMenuBar{
+        position:relative;
+        z-index: 10;
+        background-color:#f2f4f7;
+        border-bottom:1px solid #eee;
+        box-shadow: 0px 2px 5px #888;
+    }
+    .page-title{
+        margin-top:15px;
+        margin-left:40px;
+        display: inline-block;
+    }
+}

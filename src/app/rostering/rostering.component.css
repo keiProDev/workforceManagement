@@ -1,0 +1,185 @@
+.container{
+    padding-bottom:80px;
+}
+.filter-bar{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.selectpicker{
+    background-color:#333333;
+    color:#fff;
+    width:135px;
+    height:26px;
+    font-size:12px;
+    text-align-last: center;
+    border-radius: 13px;
+    outline: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size : 12px;
+    margin-right:35px;
+}
+.filter-bar label{
+    color:#9b9b9c;
+    font-family: 'Open Sans', sans-serif;
+    font-size : 12px;
+
+}
+.filter-bar .filter-list{
+    float: left;
+    margin-right:20px;
+}
+.filter-bar .info-bar{
+    float:right;
+}
+.filter-bar .info-bar div{
+    float:left;
+    margin-left:20px;
+}
+.filter-bar .info-bar div span{
+    color:#595959;
+    font-family: 'Lato', sans-serif;
+    font-size : 12px;
+    font-weight: bold;
+}
+.publish-shifts-bar{
+    height: 61px;
+    background-color:#fff;
+    text-align: center;
+}
+.publish-shifts-bar .shifts-btn{
+    float: right;
+}
+.publish-shifts-bar .shifts-btn #dropdownMenuButton{
+    width:194px;
+    height:40px;
+    margin-top:10px;
+    margin-right:18px;
+    border-radius: 20px;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size : 11px;
+    font-weight:bold;
+}
+.dropdown-menu .dropdown-item{
+    display: block;
+    width: 100%;
+    padding: 3px 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #292b2c;
+    text-align: inherit;
+    white-space: nowrap;
+    background: 0 0;
+    border: 0;
+}
+.publish-shifts-bar .shifts-btn .dropdown-menu{
+    clear : both;
+}
+.publish-shifts-bar .week-bar{
+    margin-top:13px;
+    margin-left:13px;
+    float: none;
+    display: inline-block;
+}
+.publish-shifts-bar .week-bar button{
+    width:36px;
+    height:36px;
+    display: inline-block;
+}
+.publish-shifts-bar .week-bar h5{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size : 12px;
+    font-weight:bold;
+    margin:0 25px;
+}
+.data-table thead tr{
+    height:59px;
+    background-color:#f2f4f7;
+    border-top:1px solid #dadcdd;
+    border-bottom:0px;
+}
+.data-table thead tr th{
+    line-height: 59px;
+    text-align: center;
+    padding:0px;
+    border-right:1px solid #dadcdd;
+    color:#8f8f8f;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    letter-spacing: 0.5px!important;
+}
+.data-table thead tr th:last-child{
+    border-right:none;
+}
+.data-table thead tr th b{
+    font-weight: 900;
+    color:black;
+}
+.data-table tbody tr td{
+    padding:0;
+    min-height: 39px;
+    background-color:white;
+    border-right:1px solid #dadcdd;
+    color:#666;
+    font-family: 'Lato', sans-serif;
+    font-size:13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.data-table tbody tr td .td-cell{
+    min-height: 39px;
+    padding:6px;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+    position:relative;
+}
+.data-table tbody tr td .td-cell:last-child{
+    border-bottom:0px;
+}
+.data-table tbody tr td .show-detailed-info{
+    padding:10px;
+}
+.blue{
+    color:#3385d7;
+}
+.data-table tbody tr td .td-text{
+    margin-left:15px;
+}
+.stick{
+    position: absolute;
+    width:7px;
+    height:80%;
+    border-radius: 3px;
+    left:6px;
+    top:10%;
+}
+.blue-stick{
+    background-color:#3385d7;
+}
+.red-stick{
+    background-color:#d73333;
+}
+.green-stick{
+    background-color:#11c253;
+}
+
+.bg-blue{
+    background-color:#eaf3fb;
+}
+.green{
+    color:#11c253
+}
+.bg-green{
+    background-color:#e7f9ed;
+}
+.red{
+    color:#d73333
+}
+.bg-red{
+    background-color:#fbeaea;
+}
+.white{
+    color:#fff
+}

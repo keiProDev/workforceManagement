@@ -1,0 +1,42 @@
+.footer-bar{
+    height:80px;
+    background-color:#3078c0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin:0;
+}
+
+.footer-area{
+    color:#fff;
+}
+.footer-title{
+    float:left;
+    margin-top:35px;
+    font-size:12px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-logo{
+    margin-top:20px;
+    float:right;
+}
+@media screen and (max-width:1280px){
+    .footer-bar{
+        position: relative;
+        margin:0px -15px!important;
+        margin-top:20px;
+    }
+}
+@media screen and (max-height:927px){
+    .footer-bar{
+        position: relative;
+        margin:0px -15px!important;
+        margin-top:20px;
+    }
+}
+@media screen and (max-width:767px){
+    .footer-bar{
+        display: none;
+    }
+}
